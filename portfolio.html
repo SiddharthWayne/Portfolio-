@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharth S - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #1a1a1a;
+            color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: left;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            background-color: #2e2e2e;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            color: #00ccff;
+            border-bottom: 2px solid #00ccff;
+            padding-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #444;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            color: #fff;
+        }
+
+        th {
+            background-color: #00ccff;
+            color: #1a1a1a;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li a {
+            color: #00ccff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        ul li a:hover {
+            color: #fff;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        input[type="text"], input[type="submit"] {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+            border: none;
+            background-color: #444;
+            color: #fff;
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            background-color: #00ccff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #007bff;
+        }
+
+        #projectQueue {
+            margin-top: 20px;
+        }
+
+        #projectList {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        #projectList li {
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #00ccff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="I:\5th sem\App Dev\SIDDHARTH.png" 
+             alt="Siddharth S" 
+             width="150"
+             style="max-width: 150px; max-height: 150px; object-fit: cover; border-radius: 50%; margin-right: 20px;">
+        <h1>Siddharth S</h1>
+    </header>
+    
+
+    <section id="contact">
+        <h2>Contact Details</h2>
+        <p>Email: <a href="mailto:siddharth.ds.ml@gmail.com" style="color: #00ccff;">siddharth.ds.ml@gmail.com</a></p>
+        <p>Phone: 99446 39277</p>
+    </section>
+
+    <section id="social-media">
+        <h2>Find Me Online</h2>
+        <ul>
+            <li>GitHub: <a href="https://github.com/" target="_blank">GitHub</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/siddharth-wayne/" target="_blank">LinkedIn</a></li>
+            <li>Kaggle: <a href="https://www.kaggle.com/" target="_blank">Kaggle</a></li>
+        </ul>
+    </section>
+
+    <section id="bio">
+        <h2>Biography</h2>
+        <p>I am a passionate data science enthusiast currently pursuing a Bachelor of Technology (B.Tech) in Artificial Intelligence and Data Science at KPR Institute of Engineering and Technology (KPRIET) in Coimbatore. My academic journey has been driven by a deep interest in the fields of Machine Learning (ML), Deep Learning (DL), and Natural Language Processing (NLP).</p>
+        <p>Throughout my studies, I have developed a solid foundation in these areas, working on various projects that showcase my skills and dedication. My experience includes applying advanced ML algorithms, designing neural networks for complex tasks, and implementing NLP techniques to solve real-world problems. I am committed to leveraging data to drive meaningful insights and innovative solutions.</p>
+    </section>
+
+    <section id="description">
+        <h2>Description</h2>
+        <p>With a strong background in data science and a focus on problem-solving, I have successfully completed numerous projects that highlight my expertise. From developing predictive models to implementing machine learning algorithms, my hands-on experience has honed my skills in tackling complex challenges. My projects range from analyzing large datasets to creating intelligent systems that improve decision-making processes.</p>
+        <p>My approach combines rigorous analytical methods with creative problem-solving, allowing me to address diverse and intricate issues effectively. I am continuously exploring new techniques and tools in the ever-evolving field of data science, and I am excited about applying my knowledge to innovative and impactful projects.</p>
+    </section>
+
+    <section id="academic-details">
+        <h2>Academic Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SSLC</td>
+                    <td>Jai Saradha Mr. Hr. Sc. school</td>
+                    <td>2020</td>
+                    <td>86%</td>
+                </tr>
+                <tr>
+                    <td>Higher Secondary (HSC)</td>
+                    <td>AVP Trust</td>
+                    <td>2022</td>
+                    <td>78%</td>
+                </tr>
+                <tr>
+                    <td>B.Tech in AI and Data Science</td>
+                    <td>KPR Institute of Engineering and Technology (KPRIET)</td>
+                    <td>2022-2026</td>
+                    <td>80%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="project-queue">
+        <h2>Project Queue</h2>
+        <form id="projectForm">
+            <label for="projectName">Enter Project Name:</label>
+            <input type="text" id="projectName" name="projectName" required>
+            <input type="submit" value="Add Project">
+        </form>
+        <div id="projectQueue">
+            <h3>Projects:</h3>
+            <ul id="projectList">
+                <!-- Projects will be displayed here -->
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Siddharth S. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const form = document.getElementById('projectForm');
+        const projectList = document.getElementById('projectList');
+        const projects = [];
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const projectName = document.getElementById('projectName').value;
+            projects.push(projectName);
+            updateProjectQueue();
+            form.reset();
+        });
+
+        function updateProjectQueue() {
+            projectList.innerHTML = '';
+            projects.forEach((project, index) => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${index + 1}. ${project}`;
+                projectList.appendChild(listItem);
+            });
+        }
+    </script>
+
+</body>
+
+</html>
